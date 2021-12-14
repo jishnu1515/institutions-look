@@ -1,0 +1,15 @@
+{
+    "fixturesFolder": "__tests__/__e2e__/fixtures",
+    "integrationFolder": "__tests__/__e2e__/integration",
+    "pluginsFile": "__tests__/__e2e__/plugins/index.js",
+    "screenshotsFolder": "__tests__/__e2e__/screenshots",
+    "videosFolder": "__tests__/__e2e__/videos",
+    "supportFile": "__tests__/__e2e__/support/index.js",
+    "baseUrl": "http://localhost:3000",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "video": false,
+    "defaultCommandTimeout": 30000,
+    "requestTimeout": 30000,
+    "pageLoadTimeout": 120000
+}
