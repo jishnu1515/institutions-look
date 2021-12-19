@@ -8,7 +8,8 @@
     "build": "npm run clean --scripts-prepend-node-path && env-cmd -f env/.env.${ENVIRONMENT:-local} next build && next export",
     "cy": "cypress run",
     "test": "start-server-and-test 'npm run dev --scripts-prepend-node-path' http://localhost:3000 'npm run cy --scripts-prepend-node-path'",
-    "clean": "rimraf .next out"
+    "clean": "rimraf .next out",
+    "deploy": "bash scripts/publish.sh"
   },
   "dependencies": {
     "@emotion/react": "11.7.1",
