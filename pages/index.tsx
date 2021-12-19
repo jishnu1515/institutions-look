@@ -50,7 +50,7 @@ const Index: FC = () => {
                     flexDirection: 'column',
                 }}
             >
-                <h4>Institutions Lookup</h4>
+                <h4>Institutions Lookup 🌎</h4>
                 <p>
                     A service to search all colleges in India, universities in India and all international universities
                     around the world using their name, a prefix of their name or any part of their name.
