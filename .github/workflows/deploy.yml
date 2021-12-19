@@ -21,6 +21,11 @@ jobs:
               uses: c-hive/gha-yarn-cache@v2
             - name: Install project dependencies.
               run: yarn --prefer-offline  --frozen-lockfile
+            - name: Create SSH key.
+              run: |
+                  install -m 600 -D /dev/null ~/.ssh/id_rsa
+                  echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+                  echo "${{ secrets.SSH_KNOWN_HOST }}" > ~/.ssh/known_hosts
             - name: Deploy.
               env:
                   ENVIRONMENT: production
