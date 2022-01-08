@@ -13,6 +13,9 @@
 * Code linted and formatted using eslint and prettier.
 
 ## Internet Footprint.
-This repository is actually is related to an article that I wrote on my blog. Here's the link for that article.
-<br />
+* This repository is actually is related to an article that I wrote on my blog. Here's the link for that article.
 ### https://mustansir.dev/posts/nextjs-with-ci-cd/
+
+## Resources.
+* Backend API for this service. 
+### https://github.com/MustansirZia/institutions-api
