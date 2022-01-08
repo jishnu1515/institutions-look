@@ -1,6 +1,8 @@
 # institutions-lookup
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+![test workflow](https://github.com/MustansirZia/institutions-lookup/actions/workflows/test.yml/badge.svg)
+
 
 > Frontend of service capable of searching colleges in India, universities in India and all international universities around the world using their name, a prefix of their name or any part of their name.
 
