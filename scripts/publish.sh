@@ -4,7 +4,7 @@
 export ENVIRONMENT=production
 
 # Deployment variables.
-export SERVER_HOST=68.183.83.10
+export SERVER_HOST=13.126.106.144
 export SERVER_DIR=/var/www/html 
 export SERVER_USER=root
 
